@@ -1,0 +1,107 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": -8,
+      "y": -8,
+      "width": 1382,
+      "height": 744,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 313,
+                "type": "panel",
+                "width": 220
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 310,
+                "type": "panel",
+                "width": 220
+              }
+            ],
+            "height": 625,
+            "type": "dock-v",
+            "width": 220
+          },
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "scene"
+                ],
+                "height": 356.140625,
+                "type": "panel",
+                "width": 814
+              },
+              {
+                "active": 0,
+                "children": [
+                  "console",
+                  "timeline"
+                ],
+                "height": 266.859375,
+                "type": "panel",
+                "width": 814
+              }
+            ],
+            "height": 625,
+            "type": "dock-v",
+            "width": 814
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector"
+            ],
+            "height": 625,
+            "type": "panel",
+            "width": 328
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "hierarchy",
+        "assets",
+        "console",
+        "timeline",
+        "inspector",
+        "scene"
+      ]
+    }
+  },
+  "panels": {
+    "node-library": {
+      "x": 608,
+      "y": 140,
+      "width": 316,
+      "height": 520
+    },
+    "console": {
+      "x": 556,
+      "y": 228,
+      "width": 418,
+      "height": 340
+    },
+    "builder": {
+      "x": -8,
+      "y": -8,
+      "width": 1382,
+      "height": 744
+    }
+  }
+}
